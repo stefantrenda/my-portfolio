@@ -9,10 +9,21 @@ import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+const getExperienceYears = (): number => {
+  const startDate = new Date('2022-03-01'); 
+  const today = new Date();
+  const differenceInMilliseconds = today.getTime() - startDate.getTime();
+  const yearsOfExperience = Math.floor(differenceInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)); 
+  return yearsOfExperience;
 };
+
+export const metadata = {
+  title: "Stefan | Personal Portfolio",
+  description: `Stefan is a full-stack developer with ${getExperienceYears()} years of experience.`,
+};
+console.log(metadata);
+
+
 
 export default function RootLayout({
   children,
