@@ -21,7 +21,6 @@ export const metadata = {
   title: "Stefan | Personal Portfolio",
   description: `Stefan is a full-stack developer with ${getExperienceYears()} years of experience.`,
 };
-console.log(metadata);
 
 
 

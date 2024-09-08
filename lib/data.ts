@@ -35,28 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title:
+      "Bachelor's Degree in Computer Systems Networking and Telecommunications",
+    location: "International Slavic University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I earned my Bachelor's degree in Computer Systems Networking and Telecommunications, which provided a strong foundation in computing principles and network communication, complementing my hands-on development skills.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017-2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Development Academy",
+    location: "Skopje, Macedonia",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I attended Brainster Academy, a specialized academy for front-end development, enhancing my skills and preparing for advanced industry challenges.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Skopje, Macedonia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "As a full-stack developer at Ultrasoft Systems, I leverage an extensive technology stack to build robust web applications. My expertise spans front-end and back-end development, utilizing technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Express, and MongoDB. Additionally, I employ tools like Redux, RTK Query, Framer Motion, i18next for translations, and UI frameworks including MUI, Bootstrap, Tailwind, and SASS. My work also involves sophisticated form handling using React Hook Form.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -78,7 +79,8 @@ export const projectsData = [
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "As a full-stack developer at Ultrasoft Systems, I leverage an extensive technology stack to build robust web applications. My expertise spans front-end and back-end development, utilizing technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Express, and MongoDB. Additionally, I employ tools like Redux, RTK Query, Framer Motion, i18next for translations, and UI frameworks including MUI, Bootstrap, Tailwind, and SASS. My work also involves sophisticated form handling using React Hook Form.",
+
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
@@ -94,14 +96,15 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "RTK Query",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "i18next translations",
+  "MUI",
+  "Bootstrap",
+  "SASS",
+  "React Hook Form",
+  "SCRUM",
 ] as const;
