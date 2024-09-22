@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import blin from "@/public/blin.png";
+import sociopedia from "@/public/sociopedia.png";
 
 export const links = [
   {
@@ -63,27 +65,51 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Calymland",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Caymland is an automated digital marketing platform. As a front-end developer, I was responsible for creating dynamic and responsive user interfaces using React, Redux, i18next for translations, MUI, Tailwind, and Bootstrap. My role involved integrating front-end components with backend APIs to provide real-time marketing analytics and user interaction data, enhancing the platform's automation capabilities.",
+
+    tags: [
+      "React",
+      "Redux",
+      "i18next",
+      "MUI",
+      "Tailwind",
+      "Bootstrap",
+      "React Hook Form",
+    ],
+
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Noise App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A versatile application designed to enhance focus and serenity through customizable soundscapes. Users can select from a variety of nature sounds, ambient environments, and relaxation tones, or craft their own unique mixes. Features include a dynamic mix creator, a timer for focus sessions, and options to save and share soundscapes with others.",
+    tags: ["React", "Tailwind", "Shadcn UI"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Shop Mattresses",
     description:
-      "As a full-stack developer at Ultrasoft Systems, I leverage an extensive technology stack to build robust web applications. My expertise spans front-end and back-end development, utilizing technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Express, and MongoDB. Additionally, I employ tools like Redux, RTK Query, Framer Motion, i18next for translations, and UI frameworks including MUI, Bootstrap, Tailwind, and SASS. My work also involves sophisticated form handling using React Hook Form.",
-
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "As a front-end developer, I was tasked with the redesign and implementation of the 'Shop Mattresses' website from Figma designs to a live site using React and Tailwind CSS. My role was centered around creating a responsive and visually appealing interface, utilizing Shadcn UI for enhanced UI components.",
+    tags: ["React", "Tailwind", "Shadcn UI"],
     imageUrl: wordanalyticsImg,
   },
+  {
+    title: "Blin",
+    description:
+      "As a front-end developer, I crafted the interactive UI for Blin, a luxury watch retail site, using React and Tailwind CSS. This project focused on enhancing user experience with a clean and responsive design.",
+    tags: ["React", "Tailwind"],
+    imageUrl: blin,
+  },
+  {
+    title: "Sociopedia",
+    description:
+      "Sociopedia is a social networking application similar to Facebook. It allows users to create profiles, connect with friends, share posts, and engage with the community through comments and reactions. Built using the MERN stack (MongoDB, Express, React, Node.js), the app features real-time chat, user authentication, and a responsive design optimized for both web and mobile devices.",
+    tags: ["React", "NodeJS", "ExpressJS", "MongoDB", "MUI"],
+    imageUrl: sociopedia,
+  }
+  
 ] as const;
 
 export const skillsData = [
@@ -107,4 +133,5 @@ export const skillsData = [
   "SASS",
   "React Hook Form",
   "SCRUM",
+  "Apache ECharts",
 ] as const;
